@@ -39,7 +39,7 @@ function mt_demo_importer_config(){
 					array(
 						'slug'  	=> 'contact-form-7',
 						'init'  	=> 'contact-form-7/wp-contact-form-7.php',
-						'name'  	=> 'Contact Form 7',
+						'name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' )
 					)
 				)
 			)
