@@ -23,9 +23,9 @@ function mt_demo_importer_config(){
 		'default-demo' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
 			'xml_file'     		=> $git_url . 'default-demo/news-portal.xml',
-			'theme_settings' 	=> $git_url . 'corporation/news-portal-export.dat',
-			'widgets_file'  	=> $git_url . 'corporation/news-portal-widgets.wie',
-			'screen'			=> $git_url . 'corporation/screenshot.jpg',
+			'theme_settings' 	=> $git_url . 'default-demo/news-portal-export.dat',
+			'widgets_file'  	=> $git_url . 'default-demo/news-portal-widgets.wie',
+			'screen'			=> $git_url . 'default-demo/screenshot.jpg',
 			'preview_url'		=> 'http://demo.mysterythemes.com/news-portal/',
 			'is_shop'			=> true,
 			'home_title'  		=> 'Home',
