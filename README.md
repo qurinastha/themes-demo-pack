@@ -1,2 +1,2 @@
-# themes-demo-pack
-This repository serves the MysteryThemes themes demo packages
+# Themes Demo Pack
+This repository serves the MysteryThemes themes demo packages.
