@@ -18,22 +18,20 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function mt_demo_importer_config(){
 	
-	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/editorial/';
+	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/scholarship/';
 	$demo_config 	= array(
-		'default' => array(
+		'default-demo' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default-demo/editorial.xml',
-			'theme_settings' 	=> $git_url . 'default-demo/editorial.dat',
-			'widgets_file'  	=> $git_url . 'default-demo/editorial.wie',
+			'xml_file'     		=> $git_url . 'default-demo/scholarship.xml',
+			'theme_settings' 	=> $git_url . 'default-demo/scholarship.dat',
+			'widgets_file'  	=> $git_url . 'default-demo/scholarship.wie',
 			'screen'			=> $git_url . 'default-demo/screenshot.jpg',
-			'preview_url'		=> 'http://demo.mysterythemes.com/news-portal/',
+			'preview_url'		=> 'https://demo.mysterythemes.com/scholarship/',
 			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> 'Blog',
 			'menus'				=> array(
-									'top-header' => 'top-header-menu',
-									'primary' 	 => 'primary',
-									'footer'	 => 'footer-menu'
+									'scholarship_primary_menu' => 'Primary Menu',
 								),
 			'required_plugins'  => array(
 				'free' => array(
@@ -46,7 +44,7 @@ function mt_demo_importer_config(){
 			)
 		)
 	);
-
+	
 	return $demo_config;
 	
 }
