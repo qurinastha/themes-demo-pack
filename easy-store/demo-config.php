@@ -19,18 +19,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function mt_demo_importer_config(){
 	        $theme_slug 	= "easy-store";
-			$giturl 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/easy-store/default-demo/';
+			$giturl 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/easy-store/';
 			$demo_config 	= array(
-				'easy-store' => array(
+				'default' => array(
 					'name'			    => esc_html__( 'Default Demo', 'mystery-demo-importer' ),
 					'theme_slug'        => $theme_slug,
 					'theme_description' => esc_html__( 'Easy Ecommerce WordPress Theme', 'mystery-demo-importer' ),
 					'version'           => '1.2',
-					'theme_settings' 	=> $giturl . 'default-demo/easy-store-export.dat',
-					'xml_file'     		=> $giturl . 'default-demo/easy-store.xml',
-					'widgets_file'  	=> $giturl . 'default-demo/easy-store-widgets.wie',
-					'preview_screenshot'=> $giturl . 'default-demo/screenshot.png',
-					'demo_url'		    => 'http://demo.mysterythemes.com/easy-store',
+					'theme_settings' 	=> $giturl . 'default/easy-store-export.dat',
+					'xml_file'     		=> $giturl . 'default/easy-store.xml',
+					'widgets_file'  	=> $giturl . 'default/easy-store-widgets.wie',
+					'preview_screenshot'=> $giturl . 'default/screenshot.png',
+					'demo_url'		    => 'http://demo.mysterythemes.com/easy-store/',
 					'is_shop'			=> true,
 					'theme_type'        => array( 'free', 'WooCommerce', 'Ecommerce' ),
 					'home_title'  		=> 'Home',

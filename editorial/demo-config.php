@@ -22,11 +22,11 @@ function mt_demo_importer_config(){
 	$demo_config 	= array(
 		'default' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default-demo/editorial.xml',
-			'theme_settings' 	=> $git_url . 'default-demo/editorial.dat',
-			'widgets_file'  	=> $git_url . 'default-demo/editorial.wie',
-			'screen'			=> $git_url . 'default-demo/screenshot.jpg',
-			'preview_url'		=> 'http://demo.mysterythemes.com/news-portal/',
+			'xml_file'     		=> $git_url . 'default/editorial.xml',
+			'theme_settings' 	=> $git_url . 'default/editorial.dat',
+			'widgets_file'  	=> $git_url . 'default/editorial.wie',
+			'screen'			=> $git_url . 'default/screenshot.jpg',
+			'preview_url'		=> 'http://demo.mysterythemes.com/editorial/',
 			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> 'Blog',
@@ -40,7 +40,7 @@ function mt_demo_importer_config(){
 					array(
 						'slug'  	=> 'contact-form-7',
 						'init'  	=> 'contact-form-7/wp-contact-form-7.php',
-						'name'  	=> 'Contact Form 7',
+						'name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' )
 					)
 				)
 			)

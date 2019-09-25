@@ -20,12 +20,12 @@ function mt_demo_importer_config(){
 	
 	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/';
 	$demo_config 	= array(
-		'default-demo' => array(
+		'default' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default-demo/news-portal.xml',
-			'theme_settings' 	=> $git_url . 'default-demo/news-portal-export.dat',
-			'widgets_file'  	=> $git_url . 'default-demo/news-portal-widgets.wie',
-			'screen'			=> $git_url . 'default-demo/screenshot.jpg',
+			'xml_file'     		=> $git_url . 'default/news-portal.xml',
+			'theme_settings' 	=> $git_url . 'default/news-portal-export.dat',
+			'widgets_file'  	=> $git_url . 'default/news-portal-widgets.wie',
+			'screen'			=> $git_url . 'default/screenshot.jpg',
 			'preview_url'		=> 'http://demo.mysterythemes.com/news-portal/',
 			'is_shop'			=> true,
 			'home_title'  		=> 'Home',

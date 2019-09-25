@@ -20,12 +20,12 @@ function mt_demo_importer_config(){
 	
 	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/color-blog/';
 	$demo_config 	= array(
-		'default-demo' => array(
+		'default' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default-demo/color-blog.xml',
-			'theme_settings' 	=> $git_url . 'default-demo/color-blog.dat',
-			'widgets_file'  	=> $git_url . 'default-demo/color-blog.wie',
-			'screen'			=> $git_url . 'default-demo/screenshot.png',
+			'xml_file'     		=> $git_url . 'default/color-blog.xml',
+			'theme_settings' 	=> $git_url . 'default/color-blog.dat',
+			'widgets_file'  	=> $git_url . 'default/color-blog.wie',
+			'screen'			=> $git_url . 'default/screenshot.png',
 			'preview_url'		=> 'https://demo.mysterythemes.com/color-blog/',
 			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
@@ -39,7 +39,7 @@ function mt_demo_importer_config(){
 					array(
 						'slug'  	=> 'contact-form-7',
 						'init'  	=> 'contact-form-7/wp-contact-form-7.php',
-						'name'  	=> 'Contact Form 7',
+						'name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' )
 					)
 				)
 			)

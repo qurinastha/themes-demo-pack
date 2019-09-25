@@ -20,12 +20,12 @@ function mt_demo_importer_config(){
 	
 	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/scholarship/';
 	$demo_config 	= array(
-		'default-demo' => array(
+		'default' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default-demo/scholarship.xml',
-			'theme_settings' 	=> $git_url . 'default-demo/scholarship.dat',
-			'widgets_file'  	=> $git_url . 'default-demo/scholarship.wie',
-			'screen'			=> $git_url . 'default-demo/screenshot.jpg',
+			'xml_file'     		=> $git_url . 'default/scholarship.xml',
+			'theme_settings' 	=> $git_url . 'default/scholarship.dat',
+			'widgets_file'  	=> $git_url . 'default/scholarship.wie',
+			'screen'			=> $git_url . 'default/screenshot.jpg',
 			'preview_url'		=> 'https://demo.mysterythemes.com/scholarship/',
 			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
@@ -38,7 +38,7 @@ function mt_demo_importer_config(){
 					array(
 						'slug'  	=> 'contact-form-7',
 						'init'  	=> 'contact-form-7/wp-contact-form-7.php',
-						'name'  	=> 'Contact Form 7',
+						'name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' )
 					)
 				)
 			)
