@@ -18,28 +18,31 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function mt_demo_importer_config(){
 	
-	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/';
+	$theme_slug 	= 'news-portal';
+	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/';
 	$demo_config 	= array(
 		'default' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default/news-portal.xml',
-			'theme_settings' 	=> $git_url . 'default/news-portal-export.dat',
-			'widgets_file'  	=> $git_url . 'default/news-portal-widgets.wie',
-			'screen'			=> $git_url . 'default/screenshot.jpg',
-			'preview_url'		=> 'http://demo.mysterythemes.com/news-portal/',
-			'is_shop'			=> true,
+			'theme_slug'        => $theme_slug,
+			'theme_description' => esc_html__( 'Ultimate responsive magazine WordPress Theme.', 'mystery-demo-importer' ),
+			'xml_file'     		=> $git_url . 'default/'.$theme_slug.'.xml',
+			'theme_settings' 	=> $git_url . 'default/'.$theme_slug.'-export.dat',
+			'widgets_file'  	=> $git_url . 'default/'.$theme_slug.'-widgets.wie',
+			'preview_screen'	=> $git_url . 'default/screenshot.jpg',
+			'preview_url'		=> 'http://demo.mysterythemes.com/'.$theme_slug.'/',
+			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> '',
-			'menus'				=> array(
+			'menus_locations'	=> array(
 									'news_portal_top_menu' => 'top menu',
 									'news_portal_primary_menu' => 'primary menu',
 								),
 			'required_plugins'  => array(
 				'free' => array(
 					array(
-						'slug'  	=> 'contact-form-7',
-						'init'  	=> 'contact-form-7/wp-contact-form-7.php',
-						'name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' )
+						'plugin_name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' ),
+						'plugin_slug'  	=> 'contact-form-7',
+						'install_setup' => 'contact-form-7/wp-contact-form-7.php'
 					)
 				)
 			)

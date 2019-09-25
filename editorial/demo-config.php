@@ -18,19 +18,22 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function mt_demo_importer_config(){
 	
-	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/editorial/';
+	$theme_slug 	= 'editorial';
+	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/';
 	$demo_config 	= array(
 		'default' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
-			'xml_file'     		=> $git_url . 'default/editorial.xml',
-			'theme_settings' 	=> $git_url . 'default/editorial.dat',
-			'widgets_file'  	=> $git_url . 'default/editorial.wie',
-			'screen'			=> $git_url . 'default/screenshot.jpg',
-			'preview_url'		=> 'http://demo.mysterythemes.com/editorial/',
+			'theme_slug'        => $theme_slug,
+			'theme_description' => esc_html__( 'Ultimate responsive magazine WordPress Theme.', 'mystery-demo-importer' ),
+			'xml_file'     		=> $git_url . 'default/'.$theme_slug.'.xml',
+			'theme_settings' 	=> $git_url . 'default/'.$theme_slug.'-export.dat',
+			'widgets_file'  	=> $git_url . 'default/'.$theme_slug.'-widgets.wie',
+			'preview_screen'	=> $git_url . 'default/screenshot.jpg',
+			'preview_url'		=> 'http://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
-			'blog_title'  		=> 'Blog',
-			'menus'				=> array(
+			'blog_title'  		=> '',
+			'menus_locations'	=> array(
 									'top-header' => 'top-header-menu',
 									'primary' 	 => 'primary',
 									'footer'	 => 'footer-menu'
@@ -38,9 +41,9 @@ function mt_demo_importer_config(){
 			'required_plugins'  => array(
 				'free' => array(
 					array(
-						'slug'  	=> 'contact-form-7',
-						'init'  	=> 'contact-form-7/wp-contact-form-7.php',
-						'name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' )
+						'plugin_name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' ),
+						'plugin_slug'  	=> 'contact-form-7',
+						'install_setup' => 'contact-form-7/wp-contact-form-7.php'
 					)
 				)
 			)
