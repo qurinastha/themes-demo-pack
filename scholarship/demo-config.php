@@ -32,7 +32,7 @@ function mt_demo_importer_config(){
 			'preview_url'		=> 'https://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> false,
 			'home_title'  		=> 'Home',
-			'blog_title'  		=> 'Blog',
+			'blog_title'  		=> '',
 			'menus_locations'	=> array(
 									'scholarship_primary_menu' => 'Primary Menu',
 								),
