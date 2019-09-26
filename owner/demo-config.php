@@ -28,12 +28,12 @@ function mt_demo_importer_config(){
 			'xml_file'     		=> $git_url . 'owner-default/'.$theme_slug.'.xml',
 			'theme_settings' 	=> $git_url . 'owner-default/'.$theme_slug.'-export.dat',
 			'widgets_file'  	=> $git_url . 'owner-default/'.$theme_slug.'-widgets.wie',
-			'preview_screen'	=> $git_url . 'owner-default/screenshot.png',
+			'preview_screen'	=> $git_url . 'owner-default/screenshot.jpg',
 			'preview_url'		=> 'https://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> false,
 			'theme_type'        => array( 'free', 'business', 'multipurpose' ),
 			'home_title'  		=> 'Home',
-			'blog_title'  		=> '',
+			'blog_title'  		=> 'Blogs',
 			'menus_locations'	=> array(
 									'owner_primary_menu' 	=> 'Primary Menu',
 									'owner_footer_menu'		=> 'Footer Menu'
