@@ -2,11 +2,11 @@
   "default": {
     "demo_name": "Default Demo",
     "theme_slug": "news-portal",
-    "theme_description": "A clean and colorful WordPress Theme.",
+    "theme_description": "Ultimate responsive magazine WordPress Theme.",
     "xml_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/default/news-portal.xml",
     "theme_settings": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/default/news-portal-export.dat",
     "widgets_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/default/news-portal-widgets.wie",
-    "preview_screen": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/default/screenshot.png",
+    "preview_screen": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/news-portal/default/screenshot.jpg",
     "preview_url": "https://demo.mysterythemes.com/news-portal/",
     "is_shop": "0",
     "theme_type": [
