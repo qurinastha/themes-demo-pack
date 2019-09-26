@@ -11,8 +11,8 @@
     "is_shop": "0",
     "theme_type": [
       "free",
-      "WooCommerce",
-      "Ecommerce"
+      "blog",
+      "magazine"
     ],
     "home_title": "Home",
     "blog_title": "",

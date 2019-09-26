@@ -31,6 +31,7 @@ function mt_demo_importer_config(){
 			'preview_screen'	=> $git_url . 'default/screenshot.jpg',
 			'preview_url'		=> 'http://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> false,
+			'theme_type'        => array( 'free', 'blog', 'magazine' ),
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> '',
 			'menus_locations'	=> array(

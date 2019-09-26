@@ -4,8 +4,8 @@
         "theme_slug": "easy-store",
         "theme_description": "Easy Ecommerce WordPress Theme",
         "version": "1.2",
-        "theme_settings": "https:\/\/raw.githubusercontent.com\/mysterythemes\/package-theme-demos\/master\/easy-store\/default\/easy-store.dat",
         "xml_file": "https:\/\/raw.githubusercontent.com\/mysterythemes\/package-theme-demos\/master\/easy-store\/default\/easy-store.xml",
+        "theme_settings": "https:\/\/raw.githubusercontent.com\/mysterythemes\/package-theme-demos\/master\/easy-store\/default\/easy-store.dat",
         "widgets_file": "https:\/\/raw.githubusercontent.com\/mysterythemes\/package-theme-demos\/master\/easy-store\/default\/easy-store.wie",
         "preview_screenshot": "https:\/\/raw.githubusercontent.com\/mysterythemes\/package-theme-demos\/master\/easy-store\/default\/screenshot.png",
         "demo_url": "http:\/\/demo.mysterythemes.com\/easy-store",
@@ -24,17 +24,17 @@
             "free-plugins": [
                 {
                     "plugin_name":      "Contact Form 7",
-                    "slug":             "contact-form-7",
+                    "plugin_slug":      "contact-form-7",
                     "install_setup":    "contact-form-7\/wp-contact-form-7.php"
                 },
                 {
                     "plugin_name":      "WooCommerce",
-                    "slug":             "woocommerce",
+                    "plugin_slug":      "woocommerce",
                     "install_setup":    "woocommerce\/woocommerce.php"
                 },
                 {
                     "plugin_name":      "YITH WooCommerce Wishlist",
-                    "slug":             "yith-woocommerce-wishlist",
+                    "plugin_slug":      "yith-woocommerce-wishlist",
                     "install_setup":    "yith-woocommerce-wishlist\/yith-woocommerce-wishlist.php"
                 }
             ],
