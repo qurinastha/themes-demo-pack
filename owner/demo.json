@@ -1,12 +1,12 @@
 {
-  "default": {
-    "demo_name": "Default Demo",
+  "owner-default": {
+    "demo_name": "owner-default Demo",
     "theme_slug": "owner",
     "theme_description": "A clean multipurpose WordPress Theme.",
-    "xml_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/default/owner.xml",
-    "theme_settings": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/default/owner-export.dat",
-    "widgets_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/default/owner-widgets.wie",
-    "preview_screen": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/default/screenshot.jpg",
+    "xml_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/owner-default/owner.xml",
+    "theme_settings": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/owner-default/owner-export.dat",
+    "widgets_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/owner-default/owner-widgets.wie",
+    "preview_screen": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/owner/owner-default/screenshot.jpg",
     "preview_url": "https://demo.mysterythemes.com/owner/",
     "is_shop": "0",
     "theme_type": [
