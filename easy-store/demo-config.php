@@ -53,7 +53,7 @@ function mt_demo_importer_config(){
 					array(
 						'plugin_name' 	=> __( 'YITH WooCommerce Wishlist', 'mystery-demo-importer' ),
 						'plugin_slug'	=> 'yith-woocommerce-wishlist',
-						'install_setup' => 'yith-woocommerce-wishlist/yith-woocommerce-wishlist.php',
+						'install_setup' => 'yith-woocommerce-wishlist/init.php',
 					),
 				)
 			)

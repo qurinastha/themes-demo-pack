@@ -35,7 +35,7 @@
                 {
                     "plugin_name":      "YITH WooCommerce Wishlist",
                     "plugin_slug":      "yith-woocommerce-wishlist",
-                    "install_setup":    "yith-woocommerce-wishlist\/yith-woocommerce-wishlist.php"
+                    "install_setup":    "yith-woocommerce-wishlist\/init.php"
                 }
             ],
             "premium-plugins": []
