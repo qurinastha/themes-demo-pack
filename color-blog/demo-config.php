@@ -19,9 +19,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 function mt_demo_importer_config(){
 
 	$theme_slug 	= 'color-blog';
-	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/';
+	//$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/';
+	$git_url 		= 'https://raw.githubusercontent.com/qurinastha/themes-demo-pack/master/'.$theme_slug.'/';
 	$demo_config 	= array(
-		'default' => array(
+		'color-blog' => array(
 			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
 			'theme_slug'        => $theme_slug,
 			'theme_description' => esc_html__( 'A clean and colorful WordPress Theme.', 'mystery-demo-importer' ),

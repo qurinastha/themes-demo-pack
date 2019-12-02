@@ -20,10 +20,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 function mt_demo_importer_config(){
 
     $theme_slug 	= 'easy-store';
-	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/default/';
+	//$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/default/';
+	$git_url 		= 'https://raw.githubusercontent.com/qurinastha/themes-demo-pack/master/'.$theme_slug.'/default/';
 	$demo_config 	= array(
 		'default' => array(
-			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
+			'demo_name'			=> esc_html__( 'Easy Store', 'mystery-demo-importer' ),
 			'theme_slug'        => $theme_slug,
 			'theme_description' => esc_html__( 'Easy Ecommerce WordPress Theme', 'mystery-demo-importer' ),
 			'xml_file'     		=> $git_url . $theme_slug.'.xml',

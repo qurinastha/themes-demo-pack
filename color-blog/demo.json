@@ -1,6 +1,6 @@
 {
-  "default": {
-    "demo_name": "Default Demo",
+  "color-blog": {
+    "demo_name": "Color Blog",
     "theme_slug": "color-blog",
     "theme_description": "A clean and colorful WordPress Theme.",
     "xml_file": "https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/color-blog/default/color-blog.xml",
