@@ -18,7 +18,9 @@
       "home_title":"Home",
       "blog_title":"Blog",
       "menus_locations":{ 
-         "easy_store_primary_menu":"Primary Menu"
+         "easy_store_primary_menu":"Primary Menu",
+         "easy_store_top_menu" : "Top Menu",
+         "easy_store_footer_menu" : "Footer Menu",
       },
       "plugins_list":{ 
          "contact-form-7":{ 
