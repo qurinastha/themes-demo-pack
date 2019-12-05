@@ -20,25 +20,25 @@
         "menus_locations": {
             "easy_store_primary_menu": "Primary Menu"
         },
-        "required_plugins": {
-            "free-plugins": [
-                {
-                    "plugin_name":      "Contact Form 7",
-                    "plugin_slug":      "contact-form-7",
-                    "install_setup":    "contact-form-7\/wp-contact-form-7.php"
-                },
-                {
-                    "plugin_name":      "WooCommerce",
-                    "plugin_slug":      "woocommerce",
-                    "install_setup":    "woocommerce\/woocommerce.php"
-                },
-                {
-                    "plugin_name":      "YITH WooCommerce Wishlist",
-                    "plugin_slug":      "yith-woocommerce-wishlist",
-                    "install_setup":    "yith-woocommerce-wishlist\/init.php"
-                }
-            ],
-            "premium-plugins": []
-        }
+        "plugins_list":{
+            "contact-form-7":
+            {
+            "name":"Contact Form 7",
+            "slug":"contact-form-7/wp-contact-form-7.php",
+            "required":true
+            },
+            "woocommerce":
+            {
+                "name":"WooCommerce",
+                "slug":"woocommerce/woocommerce.php",
+                "required":true
+            },
+            "yith-woocommerce-wishlist":
+            {
+                "name":"YITH WooCommerce Wishlist",
+                "slug":"yith-woocommerce-wishlist/init.php",
+                "required":true
+            },
+       }
     }
 }
