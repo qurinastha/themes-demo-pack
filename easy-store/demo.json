@@ -37,6 +37,9 @@
             "name":"YITH WooCommerce Wishlist",
             "slug":"yith-woocommerce-wishlist/init.php",
             "required":true
+         },
+         "vibrant-plugin":{ 
+            "slug":"vibrant-plugin",
          }
       }
    }
