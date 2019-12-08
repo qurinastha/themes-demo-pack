@@ -37,10 +37,6 @@
             "name":"YITH WooCommerce Wishlist",
             "slug":"yith-woocommerce-wishlist/init.php",
             "required":true
-         },
-         "mysterythemes-plugin":{ 
-            "name":"mysterythemes-plugin",
-            "slug":"mysterythemes-plugin"
          }
       }
    }
