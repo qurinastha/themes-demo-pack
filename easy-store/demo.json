@@ -39,7 +39,8 @@
             "required":true
          },
          "mysterythemes-plugin":{ 
-            "slug":"mysterythemes-plugin",
+            "name":"mysterythemes-plugin",
+            "slug":"mysterythemes-plugin"
          }
       }
    }
