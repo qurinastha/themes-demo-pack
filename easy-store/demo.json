@@ -38,8 +38,8 @@
             "slug":"yith-woocommerce-wishlist/init.php",
             "required":true
          },
-         "vibrant-plugin":{ 
-            "slug":"vibrant-plugin",
+         "mysterythemes-plugin":{ 
+            "slug":"mysterythemes-plugin",
          }
       }
    }
