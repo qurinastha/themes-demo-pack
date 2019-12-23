@@ -21,32 +21,66 @@ function mt_demo_importer_config(){
 	$theme_slug 	= 'news-portal';
 	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/';
 	$demo_config 	= array(
-		'default' => array(
-			'demo_name'			=> esc_html__( 'Default Demo', 'mystery-demo-importer' ),
+		'news-portal' => array(
+			'demo_name'			=> esc_html__( 'News Portal', 'mystery-demo-importer' ),
 			'theme_slug'        => $theme_slug,
 			'theme_description' => esc_html__( 'Ultimate responsive magazine WordPress Theme.', 'mystery-demo-importer' ),
 			'xml_file'     		=> $git_url . 'default/'.$theme_slug.'.xml',
 			'theme_settings' 	=> $git_url . 'default/'.$theme_slug.'-export.dat',
 			'widgets_file'  	=> $git_url . 'default/'.$theme_slug.'-widgets.wie',
-			'preview_screen'	=> $git_url . 'default/screenshot.jpg',
+			'preview_screen'	=> $git_url . 'default/screenshot.png',
 			'preview_url'		=> 'http://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> false,
 			'theme_type'        => array( 'free', 'blog', 'magazine' ),
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> '',
 			'menus_locations'	=> array(
-									'news_portal_top_menu' => 'top menu',
-									'news_portal_primary_menu' => 'primary menu',
-								),
-			'required_plugins'  => array(
-				'free' => array(
-					array(
-						'plugin_name'  	=> esc_html__( 'Contact Form 7', 'mystery-demo-importer' ),
-						'plugin_slug'  	=> 'contact-form-7',
-						'install_setup' => 'contact-form-7/wp-contact-form-7.php'
+				'news_portal_top_menu' => 'top menu',
+				'news_portal_primary_menu' => 'primary menu',
+			),
+			'widgets_data_update'    => array(
+				'dropdown_categories' => array(
+					'category' => array(
+						'news_portal_block_posts'   => array(
+							2 => array(
+								'block_cat_id' => 'Sports'
+							),
+							3 => array(
+								'block_cat_id' => 'Travel'
+							),
+							4 => array(
+								'block_cat_id' => 'Food'
+							),
+							5 => array(
+								'block_cat_id' => 'Travel'
+							),
+						)
+					)
+				),
+				'multi_checkbox' => array(
+					'multi_categories' => array(
+						'news_portal_featured_slider' => array(
+							2 => array(
+								'slider_cat_ids' 	=> array( 'Tech' ),
+								'featured_cat_ids'	=> array( 'Fashion', 'Lifestyle', 'Music', 'Travel' )
+							),
+						),
+
+						'news_portal_featured_posts' => array(
+							3 => array(
+								'block_cat_ids'	=> array( 'Fashion', 'Tech' )
+							),
+						),
 					)
 				)
-			)
+			),
+			'plugins_list' => array(
+				'contact-form-7' => array(
+					'name'=> 'Contact Form 7',
+					'slug'=> 'contact-form-7/wp-contact-form-7.php',
+					'required'=> true
+				)
+			 )
 		)
 	);
 
