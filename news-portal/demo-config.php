@@ -22,7 +22,7 @@ function mt_demo_importer_config(){
 	$git_url 		= 'https://raw.githubusercontent.com/mysterythemes/themes-demo-pack/master/'.$theme_slug.'/';
 	$demo_config 	= array(
 		'news-portal' => array(
-			'demo_name'			=> esc_html__( 'News Portal', 'mystery-demo-importer' ),
+			'name'			=> esc_html__( 'News Portal', 'mystery-demo-importer' ),
 			'theme_slug'        => $theme_slug,
 			'theme_description' => esc_html__( 'Ultimate responsive magazine WordPress Theme.', 'mystery-demo-importer' ),
 			'xml_file'     		=> $git_url . 'default/'.$theme_slug.'.xml',
