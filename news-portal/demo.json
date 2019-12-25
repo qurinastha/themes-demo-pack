@@ -41,7 +41,7 @@
             }
          },
          "multi_checkbox":{ 
-            "multi_categories":{ 
+            "category":{ 
                "news_portal_featured_slider":{ 
                   "2":{ 
                      "slider_cat_ids":[ 

@@ -58,7 +58,7 @@ function mt_demo_importer_config(){
 					)
 				),
 				'multi_checkbox' => array(
-					'multi_categories' => array(
+					'category' => array(
 						'news_portal_featured_slider' => array(
 							2 => array(
 								'slider_cat_ids' 	=> array( 'Tech' ),
