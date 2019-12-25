@@ -2,7 +2,7 @@
    "news-portal":{ 
       "name":"News Portal",
       "theme_slug":"news-portal",
-      "version": "1.2",
+      "version": "1.1.19",
       "theme_description":"Ultimate responsive magazine WordPress Theme.",
       "xml_file":"https:\/\/raw.githubusercontent.com\/mysterythemes\/themes-demo-pack\/master\/news-portal\/default\/news-portal.xml",
       "theme_settings":"https:\/\/raw.githubusercontent.com\/mysterythemes\/themes-demo-pack\/master\/news-portal\/default\/news-portal-export.dat",
@@ -60,6 +60,14 @@
                      "block_cat_ids":[ 
                         "Fashion",
                         "Tech"
+                     ]
+                  }
+               },
+               "news_portal_carousel":{ 
+                  "2":{ 
+                     "block_cat_ids":[ 
+                        "Food",
+                        "Music"
                      ]
                   }
                }

@@ -24,6 +24,7 @@ function mt_demo_importer_config(){
 		'news-portal' => array(
 			'name'			=> esc_html__( 'News Portal', 'mystery-demo-importer' ),
 			'theme_slug'        => $theme_slug,
+			'version' => '1.1.19',
 			'theme_description' => esc_html__( 'Ultimate responsive magazine WordPress Theme.', 'mystery-demo-importer' ),
 			'xml_file'     		=> $git_url . 'default/'.$theme_slug.'.xml',
 			'theme_settings' 	=> $git_url . 'default/'.$theme_slug.'-export.dat',
@@ -71,6 +72,14 @@ function mt_demo_importer_config(){
 								'block_cat_ids'	=> array( 'Fashion', 'Tech' )
 							),
 						),
+
+						'news_portal_carousel' => array(
+							2 => array(
+								'block_cat_ids'	=> array( 'Food', 'Music' )
+							),
+						),
+
+
 					)
 				)
 			),
