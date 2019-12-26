@@ -35,6 +35,7 @@ function mt_demo_importer_config(){
 			'preview_url'		=> 'http://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> true,
 			'theme_type'        => array( 'free', 'blog', 'magazine' ),
+			'show_on_front'     => 'posts',
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> '',
 			'menus_locations'	=> array(

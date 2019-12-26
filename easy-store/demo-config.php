@@ -35,6 +35,7 @@ function mt_demo_importer_config(){
 			'preview_url'		=> 'http://demo.mysterythemes.com/'.$theme_slug.'/',
 			'is_shop'			=> true,
 			'theme_type'        => array( 'free', 'WooCommerce', 'Ecommerce' ),
+			'show_on_front'     => 'page',
 			'home_title'  		=> 'Home',
 			'blog_title'  		=> 'Blog',
 			'menus_locations'	=> array(

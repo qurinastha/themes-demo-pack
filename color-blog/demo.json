@@ -14,6 +14,7 @@
       "blog",
       "magazine"
     ],
+    "show_on_front": "posts",
     "home_title": "Home",
     "blog_title": "",
     "menus_locations": {
