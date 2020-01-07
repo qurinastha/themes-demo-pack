@@ -24,7 +24,7 @@ function mt_demo_importer_config(){
 		'scholarship' => array(
 			'name'				=> esc_html__( 'Scholarship', 'mystery-demo-importer' ),
 			'theme_slug'        => $theme_slug,
-			'theme_description' => esc_html__( 'Best Free WordPress Education Theme.', 'mystery-demo-importer' ),
+			'theme_description' => esc_html__( 'Free Education WordPress Theme', 'mystery-demo-importer' ),
 			'xml_file'     		=> $git_url . 'default/'.$theme_slug.'.xml',
 			'theme_settings' 	=> $git_url . 'default/'.$theme_slug.'-export.dat',
 			'widgets_file'  	=> $git_url . 'default/'.$theme_slug.'-widgets.wie',
